@@ -1,0 +1,17 @@
+[package]
+name = "open_discord"
+version = "0.1.2"
+authors = ["CrumblyLiquid <dev@crumblyliquid.com>"]
+description = "Control your game through Discord chat"
+readme = "README.md"
+repository = "https://github.com/CrumblyLiquid/OpenDiscord"
+license-file = "LICENSE"
+keywords = ["discord", "bot"]
+edition = "2018"
+
+[dependencies]
+serenity = { version = "0.10.8", default-features = false, features = ["client", "gateway", "rustls_backend", "model"] }
+tokio = { version = "1.0", features = ["macros", "rt-multi-thread"] }
+enigo = "0.0.14"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"

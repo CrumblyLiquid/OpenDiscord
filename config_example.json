@@ -1,0 +1,18 @@
+{
+    "token": "TOKEN",
+    "channel_id": 0,
+    "role_id": 0,
+    "duration": 100,
+    "commands": {
+        "w": "w",
+        "s": "s",
+        "a": "a",
+        "d": "d",
+        "left": "a",
+        "right": "d",
+        "walk": "w",
+        "forward": "w",
+        "back": "s",
+        "shift": "Shift"
+    }
+}
