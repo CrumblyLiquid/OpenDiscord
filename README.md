@@ -4,6 +4,8 @@
 ## Info
  Pretty fast Discord bot made in [Rust](https://www.rust-lang.org/) with [serenity](https://github.com/serenity-rs/serenity). OpenDiscord bot listens for messages in any guilds/servers it's in and when it recognizes a command it will send a keystroke to your PC as if it came from your keyboard.
 
+ Original idea: https://github.com/c4r1sk1m/OpenTwitchPlays
+
 ## Limitations
  - Limited configuration options
  - Can't send keystrokes to specific window
