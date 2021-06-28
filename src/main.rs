@@ -7,7 +7,7 @@ use serde::Deserialize;
 use tokio::time::{sleep, Duration};
 use serenity::{
     async_trait,
-    model::{channel::Message, gateway::Ready, id::{ChannelId, RoleId}},
+    model::{channel::Message, gateway::Ready, id::RoleId},
     prelude::*,
 };
 
