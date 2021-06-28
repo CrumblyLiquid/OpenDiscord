@@ -71,7 +71,7 @@ impl EventHandler for Handler {
 
 #[tokio::main]
 async fn main() {
-    println!("OpenDiscord ({})\n  v{}\n  by {}", env!("CARGO_PKG_DESCRIPTION"), env!("CARGO_PKG_AUTHORS"), env!("CARGO_PKG_VERSION"));
+    println!("OpenDiscord ({})\n  v{}\n  by {}", env!("CARGO_PKG_DESCRIPTION"), env!("CARGO_PKG_VERSION"), env!("CARGO_PKG_AUTHORS"));
     let config: Config = Config::new("./config.json").unwrap();
     let mut client = Client::builder(config.get_token())
         .event_handler(Handler {config})
