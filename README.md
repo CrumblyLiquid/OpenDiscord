@@ -42,14 +42,16 @@ You can either build the binary yourself or download the latest zip one from [re
 ## Configuration
  Let's explore the configuration file!
 
- Note: Doesn't support special keys like Shift, Ctrl, Alt, Esc, atd. (refer to issue #2)
+ Notes:
+ 1) Doesn't support special keys like Shift, Ctrl, Alt, Esc, atd. (refer to issue #2)
+ 2) Setting roles will make the command processing slower. Not by much but when handling a lot of commands it might be noticeable. _Try it and see :D_
  ```
  {
     "token": "TOKEN", <- Your Discord bot token
     // Optional
-    "guilds": [], <- List of server ids
-    "channels": [], <- List of channel ids
-    "roles": [], <- List of role ids
+    "guilds": [], <- List of server IDs
+    "channels": [], <- List of channel IDs
+    "roles": [], <- List of role IDs
     "duration": 100, <- How long to press the key in milliseconds
     "commands": { <- Dictionary of commands
         "walk": "w", <- Command is in format "command": "key"
