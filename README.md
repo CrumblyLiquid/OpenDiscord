@@ -39,6 +39,33 @@ You can either build the binary yourself or download the latest zip one from [re
  5) If you see `<name of your bot> is connected` then everything has worked. If you don't then check your config.json for any mistakes. If the issues still persist, please refer to the `Issues` section below
  6) You can stop the bot by clicking into the terminal window and pressing `Ctrl+C`
 
+## Configuration
+ Let's explore the configuration file!
+
+ Note: Doesn't support special keys like Shift, Ctrl, Alt, Esc, atd. (refer to issue #2)
+ ```
+ {
+    "token": "TOKEN", <- Your Discord bot token
+    // Optional
+    "guilds": [], <- List of server ids
+    "channels": [], <- List of channel ids
+    "roles": [], <- List of role ids
+    "duration": 100, <- How long to press the key in milliseconds
+    "commands": { <- Dictionary of commands
+        "walk": "w", <- Command is in format "command": "key"
+                        Type `walk` into Discord and the bot will type `w` on your PC
+        "forward": "w",
+        "back": "s"
+        "left": "a",
+        "right": "d",
+        "w": "w",
+        "s": "s",
+        "a": "a",
+        "d": "d",
+    }
+ }
+ ```
+
 ## Issues
  If you encounter any bugs create an issue and I'll try to resolve the porblem.
 

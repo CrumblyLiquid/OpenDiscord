@@ -1,7 +1,8 @@
 {
     "token": "TOKEN",
-    "channel_id": 0,
-    "role_id": 0,
+    "guilds": [],
+    "channels": [],
+    "roles": [],
     "duration": 100,
     "commands": {
         "w": "w",
