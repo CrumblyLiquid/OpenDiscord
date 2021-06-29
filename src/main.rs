@@ -60,7 +60,7 @@ impl EventHandler for Handler {
         let key = Key::Layout(cmd);
         e.key_down(key);
         // Should add duration for each key separately
-        sleep(Duration::from_millis(self.config.get_duration())).await;
+        sleep(Duration::from_millis(self.config.get_duration().to_owned())).await;
         e.key_up(key);
     }
 
@@ -116,8 +116,8 @@ impl Config {
     }
 
     // Duration of keypress in milliseconds
-    fn get_duration(&self) -> u64 {
-        self.duration
+    fn get_duration(&self) -> &u64 {
+        &self.duration
     }
 
     // Add some sort of command parser to support all the keys
