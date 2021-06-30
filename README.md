@@ -7,7 +7,6 @@
  Original idea: https://github.com/c4r1sk1m/OpenTwitchPlays
 
 ## Limitations
- - Limited configuration options
  - Can't send keystrokes to specific window
  - Doesn't recognize special keys such as Ctrl, Shift, Alt, etc.
 
