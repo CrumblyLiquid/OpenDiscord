@@ -1,6 +1,6 @@
 # OpenDiscord
 ## Setup
-You can either build the binary yourself or download the latest zip one from [releases](https://github.com/CrumblyLiquid/OpenDiscord/releases). We'll focus on the case with the zip file.
+You can either [build the binary yourself](BUILD.md) or download the latest open_discord.zip (includes open_discord.exe and config.json) from [releases](https://github.com/CrumblyLiquid/OpenDiscord/releases). Now that we have the binary let's set it up!
 
  ### 1) Create a Discord bot
  You can skip this step if you already know how to setup a Discord bot

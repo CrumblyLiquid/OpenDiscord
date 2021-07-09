@@ -2,26 +2,28 @@
  Control your game through Discord chat
 
 ## Info
- Pretty fast Discord bot made in [Rust](https://www.rust-lang.org/) with [serenity](https://github.com/serenity-rs/serenity). OpenDiscord bot listens for messages in any guilds/servers it's in and when it recognizes a command it will send a keystroke to your PC as if it came from your keyboard.
+ Program made in [Rust](https://www.rust-lang.org/) with [serenity](https://github.com/serenity-rs/serenity). OpenDiscord uses Discord bot to listen for any messages in any servers it's in and when it recognizes a command it will send a keystroke to your PC as if it came from your keyboard!
 
- OpenDiscord is still in early developement. If you find any issues please refer to the [Issues](#issues) or [Contribution](#contribution)
+ Status: **in active early developement** :)
 
  Original idea: https://github.com/c4r1sk1m/OpenTwitchPlays
 
 ## Limitations
- - Can't send keystrokes to specific window
- - Doesn't recognize special keys such as Ctrl, Shift, Alt, etc.
+ - Can't send keystrokes to specific window (#2)
+ - Doesn't recognize special keys such as Ctrl, Shift, Alt, etc. (#7)
 
-These limitations might get resolved later. If you need them now create an issue.
+## Supported platforms
+ - Windows
+ - Linux
+ - macOS
 
-## Setup
- You can learn how to setup OpenDiscord [here](SETUP.md).
+ _Note: I build and test only for Windows. I'll start testing on Linux and macOS when I get better PC that can run VM :D_
 
-## Issues
- If you encounter any bugs create an issue and I'll try to resolve the porblem.
+## Get OpenDiscord
+ You can learn how to get and setup OpenDiscord [here](SETUP.md).
 
-## Contribution
- If you want to improve the bot feel free to make a pull request!
+## Issues and contribution
+ If you encounter any issues/bugs or want to improve OpenDiscord, feel free to either create an issue or make a pull request!
 
 ## Lincense
  [GNU GPLv3](LICENSE)
