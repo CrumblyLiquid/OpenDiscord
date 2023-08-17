@@ -4,8 +4,6 @@
 ## Info
  Program made in [Rust](https://www.rust-lang.org/) with [serenity](https://github.com/serenity-rs/serenity). OpenDiscord uses Discord bot to listen for any messages in any servers it's in and when it recognizes a command it will send a keystroke to your PC as if it came from your keyboard!
 
- Status: **in active early developement** :)
-
  Original idea: https://github.com/c4r1sk1m/OpenTwitchPlays
 
 ## Limitations
